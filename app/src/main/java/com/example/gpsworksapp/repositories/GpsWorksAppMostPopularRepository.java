@@ -12,7 +12,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class GpsWorksAppMostPopularRepository {  //Repository Class
+public class GpsWorksAppMostPopularRepository {
 
     private ApiService apiService;
 

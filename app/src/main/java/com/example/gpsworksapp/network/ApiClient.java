@@ -10,7 +10,7 @@ public class ApiClient {
     public static Retrofit getRetrofit() {
         if(retrofit == null) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl("https://www.episodate.com/api")          //URL base da Api sendo convertida
+                    .baseUrl("https://www.episodate.com/api/")          //URL base da Api sendo convertida
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }

@@ -199,7 +199,7 @@ public class MoviesDetailsActivity extends AppCompatActivity {
         );
     }
 
-    private void loadImageSliders(String[] sliderImages) {  //metodo de slide de imagens dentro de Details
+    private void loadImageSliders(String[] sliderImages) {
         activityMoviesDetailsBinding.sliderViewPager.setOffscreenPageLimit(1);
         activityMoviesDetailsBinding.sliderViewPager.setAdapter(new ImageSliderAdapter(sliderImages));
         activityMoviesDetailsBinding.sliderViewPager.setVisibility(View.VISIBLE);
@@ -214,7 +214,7 @@ public class MoviesDetailsActivity extends AppCompatActivity {
         });
     }
 
-    private void setUpSliderIndicators(int count) { //indicativo de vezes de imgs
+    private void setUpSliderIndicators(int count) {
         ImageView[] indicators = new ImageView[count];
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT
@@ -233,7 +233,7 @@ public class MoviesDetailsActivity extends AppCompatActivity {
         setCurrentSliderIndicator(0);
     }
 
-    private void setCurrentSliderIndicator(int position) { //marca as transicoes de img's referenciadas pelo amarelo
+    private void setCurrentSliderIndicator(int position) {
         int childCount = activityMoviesDetailsBinding.layoutSliderIndicators.getChildCount();
         for (int i = 0; i < childCount; i++) {
             ImageView imageView = (ImageView) activityMoviesDetailsBinding.layoutSliderIndicators.getChildAt(i);
