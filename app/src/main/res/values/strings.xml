@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GPSWorksApp</string>
+    <string name="GPSWorksApp">GPSWorksApp</string>
+    <string name="gps_works_app">GPS Works App</string>
+    <string name="read_more">Read More</string>
+    <string name="read_less">Read Less</string>
+    <string name="u2022">•</string>
+    <string name="website">Website</string>
+    <string name="episodes">episodes</string>
+    <string name="Favorite_List">FavoriteList</string>
+    <string name="search_movies">Search Movies</string>
+</resources>
